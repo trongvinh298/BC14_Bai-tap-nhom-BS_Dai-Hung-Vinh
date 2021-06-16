@@ -3,7 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-html, body {
-    font-family: 'Jost', sans-serif;
-    
+
+
+/* HEADER  */
+
+/* NAVBAR  */
+
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-toggle i {
+    font-size: 15px;
+}
+
+
+.navbar-toggler-icon{
+    background-image: none !important;
+    color: #fff;
+    line-height: 34px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
 }
