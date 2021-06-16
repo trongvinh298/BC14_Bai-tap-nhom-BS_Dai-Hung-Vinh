@@ -1,0 +1,28 @@
+Mọi người có thảo luận hay ý kiến gì thì modify vào file này nha
+
+Tạm thời theo e thì chia mỗi người khoảng 1500 dòng trong html / css file để làm, nếu thiếu thì mng đề xuất thêm nha, để merge branch ko bị conflict
+
+Theo e thì chia layout thành các phần như sau: 
+
+Header:
+    +Nav bar 
+    +Slick header 
+    +Carousel 
+
+Section: 
+    +About Us
+    +Features (Dog walking,...)
+    +Offer
+    +Number
+    +Plans
+    +Pet nutrition (video)
+    +Testimonials
+
+Footer:
+    +Form
+    +Contact
+
+Backtotop button
+
+
+Mình còn 1 phần quan trọng là change theme, mọi ng nghiên cứu trang layout mẫu để xem các thẻ nào liên quan đến theme thì chỉnh class cho giống sau đó mình họp lại phần theme sau nha
