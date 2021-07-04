@@ -1097,7 +1097,7 @@ body .mobile-position .fa-moon {
 }
 /* REPONSIVE  */
 @media screen and (max-width: 652px) {
-  .owl-dots {
+  .testimonial .owl-dots {
     display: none;
   }
 }
