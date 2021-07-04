@@ -910,6 +910,19 @@ body .mobile-position .fa-moon {
 .Plan__item .btn-primary {
   background-color: #189a46 !important;
 }
+.Plan__item .bt-mid:hover {
+  color: #fff;
+  background-color: #116e32 !important;
+  border-color: #116e32 !important;
+}
+.Plan__item .bt-mid.active:focus,
+.Plan__item .bt-side.active:focus {
+  color: #fff;
+  background-color: #116e32 !important;
+  border-color: #116e32 !important;
+  box-shadow: 0 0 0 0.2rem rgb(15 162 67 / 65%) !important;
+}
+
 /* PLAN END  */
 
 /* NUTRITION */
