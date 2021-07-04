@@ -957,11 +957,12 @@ body .mobile-position .fa-moon {
   max-width: 100%;
   border-radius: 10px;
 }
-.nutrition-clip i {
+
+.nutrition-clip a {
   position: absolute;
-  left: 47%;
-  top: 40%;
-  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) !important;
 
   background: #fff;
   color: #696969;
@@ -970,8 +971,6 @@ body .mobile-position .fa-moon {
   height: 55px;
   line-height: 55px;
   border-radius: 50%;
-
-  transform: scale(1);
   transition: 0.3s ease-in-out;
   animation: ripple 1s linear infinite;
 }
@@ -989,13 +988,8 @@ body .mobile-position .fa-moon {
   transform: scale(1.2);
 }
 
-/**
- * Simple fade transition,
- */
 .mfp-fade.mfp-bg {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-bg.mfp-ready {
@@ -1007,8 +1001,6 @@ body .mobile-position .fa-moon {
 
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -1112,7 +1104,7 @@ body .mobile-position .fa-moon {
 /* END TESTIMONIAL */
 
 /* CONTACT */
-.contact{
+.contact {
   background-color: white;
 }
 .contact .subscribe {
@@ -1222,7 +1214,7 @@ footer li a:hover {
 }
 
 /* FOOTER BOTTOM */
-.footer-bottom{
+.footer-bottom {
   border-top: 1px solid rgba(103, 99, 99, 0.14);
 }
 .footer-bottom a {
